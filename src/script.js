@@ -54,7 +54,7 @@ const fontLoader = new FontLoader()
 fontLoader.load(
     '/fonts/helvetiker_regular.typeface.json',
     (font) => {
-        const textGeometry = new TextGeometry('Hello xiao zhu zhu', {
+        const textGeometry = new TextGeometry('Hello Three.js', {
             font: font,
             size: 0.5,
             height: 0.002,
